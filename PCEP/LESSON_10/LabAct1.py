@@ -1,0 +1,10 @@
+def calculation(a,b):
+    add = a + b
+    sub = a - b
+    return add, sub
+
+res = calculation(40,10)
+print(res)
+
+#without bracket
+print(f"{res[0]}, {res[1]}")
