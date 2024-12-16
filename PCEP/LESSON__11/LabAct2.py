@@ -1,10 +1,5 @@
-'''
-Write a Python program that prompts the user to input two numbers and raises a ValueError exception if the inputs are not numerical.
+#Write a Python program that prompts the user to input two numbers and raises a ValueError exception if the inputs are not numerical.
 
-Write a Python program that executes a list operation and handles an AttributeError exception if the attribute does not exist.
-
-Write a  Python program to handle a ZeroDivisionError exception when dividing a number by zero.
-'''
 def valid_input(number):
     while True :
         try:
